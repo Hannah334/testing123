@@ -1,0 +1,322 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 300px;
+}
+
+.logo img {
+    width: 80%;
+}
+
+nav ul {
+    display: flex;
+    margin: 20px;
+    gap: 100px;
+    list-style-type: none;
+    padding: 20px 0px 20px 0px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+nav a {
+    color: palevioletred;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    align-items: center;
+    
+    
+}
+
+.background {
+    width:100%;
+    height:auto;
+    background-image: url(img/checkered.jpg)
+}
+
+
+main h1 {
+    color:palevioletred;
+    font-size: 60px;
+    justify-content: center;
+    margin-left: 520px;
+    padding-top: 80px;
+}
+main h2 {
+    color:palevioletred;
+    font-size: 60px;
+    justify-content: center;
+    margin-left: 520px;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+main h3 {
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    margin-left: 720px;
+}
+
+h1 img {
+    width: 2000px;
+}
+
+.gold img {
+    width: 40%;
+    display: flex;
+    margin-left: 500px;
+}
+
+.silver img {
+    width: 43%;
+    display: flex;
+    margin-right: 400px;
+}
+article {
+    display: flex;
+}
+
+.background h4 {
+    margin-left: 590px;
+    font-size: 30px;
+    color:rgb(170, 44, 86);
+    padding-top: 20px;
+}
+
+.background h5 {
+    margin-right: 450px;
+    justify-content: center;
+    font-size: 28px;
+    color:rgb(170, 44, 86);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.background p {
+    padding: 40px;
+    margin: 5px;
+    font-size: 30px;
+    color:rgb(170, 44, 86);
+    border: 8px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 50px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: palevioletred;
+
+
+}
+
+.backgroundone {
+    background-image: url(img/checkered.jpg);
+}
+
+
+.about h6 {
+    color:palevioletred;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 50px;
+
+}
+
+.about p {
+    color:rgb(170, 44, 86);
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+.found p {
+    color:rgb(170, 44, 86);
+    font-size: 34px;
+    justify-content:flex-start;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.store img {
+    width: 40%;
+    margin-left: 590px;
+    padding-top: 20px;
+    
+}
+
+.philosophy p {
+    color:rgb(170, 44, 86);
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+.why p {
+    color:rgb(170, 44, 86);
+    font-size: 34px;
+    justify-content:flex-start;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    border: dotted 10px white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.your img {
+    width: 30%;
+    padding-top: 40px;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.crafts p {
+    color:palevioletred;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.crafted p {
+    color:rgb(170, 44, 86);
+    font-size: 34px;
+    justify-content:flex-start;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.promise p {
+    color:palevioletred;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.one {
+    color:rgb(170, 44, 86);
+    font-size: 34px;
+    justify-content:flex-start;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+
+.back {
+    background-image: url(img/checkered.jpg);
+
+}
+
+.products {
+    color:palevioletred;
+    font-size: 80px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 50px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 36px;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content img {
+    width: 450px
+}
+
+.content p {
+    color:rgb(170, 44, 86);
+    font-size: 30px;
+    justify-content:flex-start;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+
+
+.foot {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: palevioletred;
+    padding: 20px;
+    font-size: larger;
+    justify-content: space-evenly;
+}
+
+.back {
+    background-image: url(img/checkered.jpg);
+}
+
+.us {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: palevioletred;
+    padding-top: 20px;
+}
+
+
+
+
+
+.contact {
+    font-size: 40px;
+    margin: 100px;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:rgb(170, 44, 86);
+}
+
+.email {
+    font-size: 30px;
+    text-align: center;
+    margin: 100px;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:rgb(170, 44, 86);
+    padding-bottom: 200px;
+}
+
